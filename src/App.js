@@ -1,8 +1,6 @@
 import React from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import openSocket from 'socket.io-client';
-const socket = openSocket('https://anabizchat.herokuapp.com/', {transports: ['websocket']});
 
 import Join from "./components/Join/Join";
 import Chat from "./components/Chat/Chat";
